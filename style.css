@@ -10,13 +10,14 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Top */
 
 .top-part {
     background:radial-gradient(rgb(139, 195, 245), #1294b8) ;
-    height: 100vh;
 }
 
 /* Nav Bar */
@@ -25,7 +26,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 10%;
     /* unselectable */
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -57,22 +58,31 @@
 }
 
 .nav-networks-logo {
-    margin: 0 0.5em;
+    margin: 0 1%;
 }
 
 /* Home illustration part */
 
-.home-illustration {
-    height: 90vh;
+.home {
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .home-left {
+    height: 70%;
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-left-text {
+    color: white;
 }
 
 .home-right-illustration {
-    width: 45%;
+    width: 40%;
 }
