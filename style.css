@@ -25,17 +25,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1.5% 0;
+    height: 10vh;
     /* unselectable */
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
-    user-select: none; 
+    user-select: none;
 }
 
 .nav-title {
     color: white;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .nav-itemlist {
@@ -47,4 +47,29 @@
 
 .nav-item {
     margin: 0 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.nav-networks-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-networks-logo {
+    margin: 0 0.5em;
+}
+
+/* Home illustration part */
+
+.home-illustration {
+    height: 90vh;
+}
+
+.home-left {
+
+}
+
+.home-right {
+
 }
