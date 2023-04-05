@@ -24,20 +24,27 @@
 .nav-bar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 1.5% 0;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none; 
 }
 
 .nav-title {
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
-.nav-items {
+.nav-itemlist {
     list-style: none;
     text-transform: uppercase;
     display: flex;
     color: white;
 }
 
-.nav-network-icons {
-
+.nav-item {
+    margin: 0 1em;
 }
