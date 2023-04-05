@@ -10,14 +10,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Top */
 
 .top-part {
-    background:radial-gradient(rgb(139, 195, 245), #1294b8) ;
+    background:radial-gradient(rgb(139, 195, 245), #1294b8);
 }
 
 /* Nav Bar */
@@ -26,7 +24,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
     /* unselectable */
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -64,7 +61,6 @@
 /* Home illustration part */
 
 .home {
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
