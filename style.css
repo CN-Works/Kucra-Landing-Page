@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1%;
     /* unselectable */
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -62,7 +63,7 @@
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
