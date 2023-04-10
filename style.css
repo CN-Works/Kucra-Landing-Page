@@ -34,7 +34,7 @@
 
 .nav-title {
     color: white;
-    font-size: 2.5em;
+    /*font-size: 2.5em;*/
 }
 
 .nav-itemlist {
@@ -45,8 +45,8 @@
 }
 
 .nav-item {
-    margin: 0 1em;
-    font-size: 1.1em;
+    /*margin: 0 1em;
+    /*font-size: 1.1em;*/
     font-weight: bold;
 }
 
