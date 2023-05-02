@@ -114,9 +114,14 @@
     border-radius: 15px;
     width: 125px;
     color: #ffffff;
-    background-color: #1294b8;
-    margin: 2px 0 2px -125px;
+    background-color: #15a8d0;
+    margin: 3px 0 3px -125px;
     padding: 10px 0;
+}
+
+.email-submit:hover{
+    cursor: pointer;
+    background-color: #0e708b;
 }
 
 .home-right-illustration {
