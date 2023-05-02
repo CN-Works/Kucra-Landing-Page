@@ -93,8 +93,30 @@
 }
 
 .email-zone {
-    width: 100%;
+    width: 85%;
+    height: 40px;
     margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-input {
+    width: 100%;
+    /* text color */
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.email-submit {
+    border: none;
+    border-radius: 15px;
+    width: 125px;
+    color: #ffffff;
+    background-color: #1294b8;
+    margin: 2px 0 2px -125px;
+    padding: 10px 0;
 }
 
 .home-right-illustration {
