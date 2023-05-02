@@ -162,6 +162,7 @@
     color:  #444444;
     font-size: 1.1rem;
     margin: 5px 0 ;
+    padding: 0 5px;
 }
 
 /* Cards part */
@@ -181,6 +182,7 @@
     justify-content: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+    transition: translate 1000ms;
 }
 
 .features-card:hover {
@@ -191,6 +193,10 @@
 .features-card-icon {
     width: 50PX;
     margin: 17px 0;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
 }
 
 .features-card-title {
