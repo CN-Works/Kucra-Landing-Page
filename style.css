@@ -138,16 +138,23 @@
 .features-part {
     background-color: #ffffff;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .features-texts {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 40%;
 }
 
 .features-title {
     color:  #303030;
+    font-size: 2.3rem;
 }
 
 .features-description {
@@ -156,21 +163,38 @@
 
 /* Cards part */
 .features-cards-part {
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .features-card {
     background:radial-gradient(rgb(139, 195, 245), #1294b8);
+    width: 25%;
+    height: 55vh;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.features-card:hover {
+    translate: 0px -30px;
 }
 
 .features-card-icon {
-
+    width: 50PX;
+    margin: 17px 0;
 }
 
 .features-card-title {
-
+    font-size: 1.3rem;
+    margin: 17px 0;
 }
 
 .features-card-text {
-    
+    font-size: 1.1rem;
+    margin: 17px 5%;
+    text-align: center;
 }
