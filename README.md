@@ -4,5 +4,5 @@
 
 **Landing page made with illustrations and parallax.**
 
-<div align='left'><a href="https://cn-works.github.io/Simpsons-Fan-Page/">Live Preview</a>
+<div align='left'><a href="https://cn-works.github.io/Kucra-Landing-Page/">Live Preview</a>
 </div>
