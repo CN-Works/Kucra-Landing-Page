@@ -132,3 +132,45 @@
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
 }
+
+/* Product Features Part */
+
+.features-part {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.features-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-title {
+    color:  #303030;
+}
+
+.features-description {
+    color:  #444444;
+}
+
+/* Cards part */
+.features-cards-part {
+
+}
+
+.features-card {
+    background:radial-gradient(rgb(139, 195, 245), #1294b8);
+}
+
+.features-card-icon {
+
+}
+
+.features-card-title {
+
+}
+
+.features-card-text {
+    
+}
