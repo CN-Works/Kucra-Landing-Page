@@ -36,7 +36,7 @@
 
 .nav-title {
     color: white;
-    font-weight: 900;
+    font-size: 2rem;
 }
 
 .nav-itemlist {
@@ -79,18 +79,22 @@
 }
 
 .home-left-title {
-    font-weight: 2500;
+    color:  #303030;
+    font-size: 3.5rem;
     width: 100%;
+    margin: 15px 0;
 }
 
 .home-left-text {
-    color: rgb(46, 46, 46);
-    font-weight: 1500;
-    width: 100%;
+    color:  #444444;
+    font-size: 1.1rem;
+    margin: 15px 0;
+    width: 85%;
 }
 
 .email-zone {
     width: 100%;
+    margin: 15px 0;
 }
 
 .home-right-illustration {
