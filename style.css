@@ -86,7 +86,7 @@
 }
 
 .home-left-text {
-    color:  #444444;
+    color:  #5d5d5d;
     font-size: 1.1rem;
     margin: 15px 0;
     width: 85%;
@@ -159,7 +159,7 @@
 }
 
 .features-description {
-    color:  #444444;
+    color:  #5d5d5d;
     font-size: 1.1rem;
     margin: 5px 0 ;
     padding: 0 5px;
@@ -214,5 +214,22 @@
 
 .works-part {
     height: 100vh;
-    background-color: #eeeeee;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works-title {
+    color:  #303030;
+    font-size: 2.5rem;
+    margin: 25px;
+}
+
+.works-description {
+    color:  #5d5d5d;
+    font-size: 1.4rem;
+    margin: 25px;
+    width: 40%;
+    text-align: center;
 }
