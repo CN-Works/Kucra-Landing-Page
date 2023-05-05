@@ -186,8 +186,8 @@
 }
 
 .features-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;
-    translate: 0px -30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
+    translate: 0px -50px;
 }
 
 .features-card-icon {
@@ -223,13 +223,13 @@
 .works-title {
     color:  #303030;
     font-size: 2.5rem;
-    margin: 25px;
+    margin: 20px;
 }
 
 .works-description {
     color:  #5d5d5d;
     font-size: 1.4rem;
-    margin: 25px;
+    margin: 20px;
     width: 40%;
     text-align: center;
 }
