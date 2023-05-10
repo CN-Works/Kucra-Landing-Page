@@ -137,6 +137,7 @@
 
 .features-part {
     background-color: #ffffff;
+    color: #ffffff;
     height: 100vh;
     display: flex;
     flex-direction: column;
