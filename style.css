@@ -245,6 +245,7 @@
 }
 
 .team-texts {
+    margin: 15px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,15 +254,17 @@
 }
 
 .team-title {
+    margin: 15px 0;
     color:  #303030;
     padding: 0 35%;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
 }
 
 .team-subtitle {
+    margin: 15px 0;
     padding: 0 32%;
     color:  #5d5d5d;
-    font-size: 1.3rem;  
+    font-size: 1.4rem;  
 }
 
 /* Cards division */
@@ -272,14 +275,14 @@
 }
 
 .team-card {
-    height: 50vh;
-    width: 15%;
+    height: 60vh;
+    width: 17.5%;
     margin: 5px;
-    outline: 2px solid #da1c1c;
+    /* outline: 2px solid #da1c1c; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 25px;
 }
 
 .team-card-stats {
@@ -291,22 +294,23 @@
 
 .team-card-number {
     color:  #303030;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .team-card-subtitle {
     color:  #5d5d5d;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .team-card-picture-part {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
 }
 
 .team-card-picture {
-    width: 200px;
+    width: 65%;
 }
 
 .team-card-picture-image {
@@ -316,11 +320,12 @@
 }
 
 .team-card-name {
+    margin: 30px 0 10px 0;
     color:  #303030;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .team-card-jobname {
     color:  #5d5d5d;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
 }
