@@ -2,7 +2,6 @@
     font-family: "Poppins", sans-serif;
     padding : 0;
     margin : 0;
-    vertical-align: top;
 }
 
 /* Container */
@@ -249,4 +248,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/* Cards division */
+
+.team-card-part {
+    display: flex;
+}
+
+.team-card {
+    margin: 5px;
+    height: 200px;
+    width: 150px;
+    border: 5px solid #cb2a2a;
+}
+
+.team-card-picture {
+    width: 100px;
+}
+
+.team-card-picture-image {
+    height: 100%;
+    width: 100%;
 }
