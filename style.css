@@ -241,3 +241,12 @@
     height: 100vh;
     background-color: #ffffff;
 }
+
+.team-texts {
+    height: 30vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
