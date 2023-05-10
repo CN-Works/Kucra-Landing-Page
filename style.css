@@ -214,7 +214,7 @@
 
 .works-part {
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #edebe6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,35 +239,85 @@
 .team-part {
     height: 100vh;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .team-texts {
-    height: 30vh;
-    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.team-title {
+    color:  #303030;
+    padding: 0 35%;
+    font-size: 2.2rem;
+}
+
+.team-subtitle {
+    padding: 0 32%;
+    color:  #5d5d5d;
+    font-size: 1.3rem;  
 }
 
 /* Cards division */
 
-.team-card-part {
+.team-cards-part {
     display: flex;
+    justify-content: center;
 }
 
 .team-card {
+    height: 50vh;
+    width: 15%;
     margin: 5px;
-    height: 200px;
-    width: 150px;
-    border: 5px solid #cb2a2a;
+    outline: 2px solid #da1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 0;
+}
+
+.team-card-number {
+    color:  #303030;
+}
+
+.team-card-subtitle {
+    color:  #5d5d5d;
+}
+
+.team-card-picture-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-card-picture {
-    width: 100px;
+    width: 200px;
 }
 
 .team-card-picture-image {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
+}
+
+.team-card-name {
+    color:  #303030;
+    font-size: 1.3rem;
+}
+
+.team-card-jobname {
+    color:  #5d5d5d;
+    font-size: 1.0rem;
 }
