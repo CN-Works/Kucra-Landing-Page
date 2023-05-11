@@ -2,6 +2,7 @@
     font-family: "Poppins", sans-serif;
     padding : 0;
     margin : 0;
+    box-sizing: border-box;
 }
 
 /* Container */
@@ -311,16 +312,19 @@
 
 .team-card-picture {
     width: 65%;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .team-card-picture-image {
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* unselectable */
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
+    filter: grayscale(1);
 }
 
 .team-card-name {
