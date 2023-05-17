@@ -337,3 +337,38 @@
     color:  #5d5d5d;
     font-size: 1.2rem;
 }
+
+/* Starting Kukra - Parallax */
+
+.kukra-starting-parallax {
+    /* The image used */
+    background-image: url("./img/parallax.png");
+  
+    /* Set a specific height */
+    height: 50vh;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-title {
+    color : #ffffff;
+}
+
+.parallax-subtext {
+    color : #ffffff;
+}
+
+.parallax-button {
+    border: none;
+    border-radius: 5px;
+}
