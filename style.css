@@ -346,13 +346,19 @@
   
     /* Set a specific height */
     height: 50vh;
-    width: 100%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax-background {
+    height: 100%;
+    width: 100%;
+
+    background-color: #0000006b;
 
     display: flex;
     flex-direction: column;
