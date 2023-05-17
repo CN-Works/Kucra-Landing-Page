@@ -398,3 +398,31 @@
     color: #303030;
     font-size: 1.25rem;
 }
+
+/* Client says */
+
+.client-says {
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.client-says-societies {
+    display: flex;
+    gap: 100px;
+}
+
+.societies {
+    width: 175px;
+}
+
+.society-logo {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+}
