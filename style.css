@@ -373,10 +373,10 @@
 }
 
 .parallax-subtext {
-    color : #dedede;
-    font-size: 1.1rem;
+    color : #cccccc;
+    font-size: 1.2rem;
     font-weight: 200;
-    padding: 0 25%;
+    padding: 0 22.5%;
     text-align: center;
 }
 
