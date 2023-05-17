@@ -474,3 +474,18 @@
     height: 100%;
     width: 100%;
 }
+
+.digcreative-left-button {
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #3993DD;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.5s;
+}
+
+.digcreative-left-button:hover {
+    background-color: #3084c9;   
+}
