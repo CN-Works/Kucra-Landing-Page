@@ -314,10 +314,31 @@
     margin-top: 35px;
 }
 
+.card-icons {
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-icon-image {
+    width: 30px;
+    border: 1px solid red;
+}
+
 .team-card-picture {
-    width: 65%;
-    border-radius: 50%;
+    border: 1px solid blue;
+    height: 250px;
+    width: 250px;
+    /* border-radius: 50%; */
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 body:has(#anna-fig:hover) #anna-pic {
