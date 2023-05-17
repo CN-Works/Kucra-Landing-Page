@@ -358,7 +358,7 @@
     height: 100%;
     width: 100%;
 
-    background-color: #0000006b;
+    background-color: #0000008a;
 
     display: flex;
     flex-direction: column;
@@ -386,6 +386,13 @@
     border: none;
     background: none;
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border: 2px solid #ffffff;
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+}
+
+.parallax-button:hover {
+    background-color: #ffffff;
+    color: #303030;
+    font-size: 1.25rem;
 }
