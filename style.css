@@ -331,6 +331,11 @@ body:has(#maria-fig:hover) #maria-pic {
     filter: grayscale(0);
 }
 
+body:has(#luke-fig:hover) #luke-pic {
+    scale: 1.1;
+    filter: grayscale(0);
+}
+
 .team-card-picture-image {
     height: 100%;
     width: 100%;
