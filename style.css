@@ -448,13 +448,10 @@
 /* Digital Creativity */
 
 .digcreative {
-    border: 5px solid #ff0000;
     height: 100vh;
     background-color: #ffffff;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0 5%;
     gap: 150px;
 }
@@ -462,8 +459,10 @@
 .digcreative-left {
     display: flex;
     flex-direction: column;
+    max-height: 50%;
     gap: 50px;
     max-width: 40%;
+    margin-top: 200px;
 }
 
 .digcreative-left-title {
@@ -479,6 +478,8 @@
 
 .digcreative-right-image {
     width: 40%;
+    max-height: 50%;
+    margin-top: 200px;
 }
 
 .digcreative-left-stats-panel {
