@@ -320,6 +320,8 @@
 
     display: flex;
     flex-direction: column;
+
+    margin-left: 5px;
 }
 
 .card-icon-image {
@@ -329,7 +331,6 @@
 }
 
 .team-card-picture {
-    border: 1px solid blue;
     height: 250px;
     width: 250px;
     border-radius: 50%;
