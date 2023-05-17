@@ -364,17 +364,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .parallax-title {
     color : #ffffff;
+    font-size: 2.5rem;
 }
 
 .parallax-subtext {
-    color : #ffffff;
+    color : #dedede;
+    font-size: 1.1rem;
+    font-weight: 200;
 }
 
 .parallax-button {
-    border: none;
+    margin-top: 50px;
     border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border: 2px solid #ffffff;
 }
