@@ -317,27 +317,25 @@
 .card-icons {
     position: absolute;
     z-index: 1;
-    width: 20px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .card-icon-image {
     width: 30px;
-    border: 1px solid red;
+    filter: invert(100%);
+    opacity: 50%;
 }
 
 .team-card-picture {
     border: 1px solid blue;
     height: 250px;
     width: 250px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
