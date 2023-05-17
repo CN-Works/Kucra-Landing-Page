@@ -327,7 +327,7 @@
 .card-icon-image {
     width: 30px;
     filter: invert(100%);
-    opacity: 50%;
+    opacity: 75%;
 }
 
 .team-card-picture {
