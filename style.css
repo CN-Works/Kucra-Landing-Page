@@ -316,6 +316,11 @@
     overflow: hidden;
 }
 
+body:has(#anna-card:hover) #anna-pic {
+    scale: 1.1;
+    filter: grayscale(0);
+}
+
 .team-card-picture-image {
     height: 100%;
     width: 100%;
@@ -325,6 +330,7 @@
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
     filter: grayscale(1);
+    transition: scale 1s, filter 1s;
 }
 
 .team-card-name {
