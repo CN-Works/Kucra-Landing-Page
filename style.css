@@ -109,6 +109,10 @@
     padding-left: 20px;
 }
 
+.email-input:focus {
+    outline: none;
+}
+
 .email-submit {
     border: none;
     border-radius: 15px;
