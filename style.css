@@ -316,7 +316,17 @@
     overflow: hidden;
 }
 
-body:has(#anna-card:hover) #anna-pic {
+body:has(#anna-fig:hover) #anna-pic {
+    scale: 1.1;
+    filter: grayscale(0);
+}
+
+body:has(#william-fig:hover) #william-pic {
+    scale: 1.1;
+    filter: grayscale(0);
+}
+
+body:has(#maria-fig:hover) #maria-pic {
     scale: 1.1;
     filter: grayscale(0);
 }
