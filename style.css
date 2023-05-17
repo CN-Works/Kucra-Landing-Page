@@ -462,7 +462,7 @@
 .digcreative-left {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 50px;
     max-width: 40%;
 }
 
@@ -479,6 +479,23 @@
 
 .digcreative-right-image {
     width: 40%;
+}
+
+.digcreative-left-stats-panel {
+    display: flex;
+    gap: 35px;
+}
+
+.stat-number {
+    color:  #303030;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.stat-name {
+    color:  #5d5d5d;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 .creative-image {
