@@ -342,7 +342,7 @@ body::-webkit-scrollbar-thumb {
 
 .card-icon-image {
     padding: 3px;
-    width: 25px;
+    width: 30px;
     filter: invert(100%);
     opacity: 75%;
     border-radius: 50%;
