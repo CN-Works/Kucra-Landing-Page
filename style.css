@@ -321,7 +321,8 @@
     display: flex;
     flex-direction: column;
 
-    margin-left: 5px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .card-icon-image {
@@ -345,9 +346,19 @@ body:has(#anna-fig:hover) #anna-pic {
     filter: grayscale(0);
 }
 
+body:has(#anna-fig:hover) #anna-icons {
+    transform:translateX(10px);
+    opacity: 1;
+}
+
 body:has(#william-fig:hover) #william-pic {
     scale: 1.1;
     filter: grayscale(0);
+}
+
+body:has(#william-fig:hover) #william-icons {
+    transform:translateX(10px);
+    opacity: 1;
 }
 
 body:has(#maria-fig:hover) #maria-pic {
@@ -355,9 +366,19 @@ body:has(#maria-fig:hover) #maria-pic {
     filter: grayscale(0);
 }
 
+body:has(#maria-fig:hover) #maria-icons {
+    transform:translateX(10px);
+    opacity: 1;
+}
+
 body:has(#luke-fig:hover) #luke-pic {
     scale: 1.1;
     filter: grayscale(0);
+}
+
+body:has(#luke-fig:hover) #luke-icons {
+    transform:translateX(10px);
+    opacity: 1;
 }
 
 .team-card-picture-image {
