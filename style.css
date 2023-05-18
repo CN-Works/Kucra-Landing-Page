@@ -607,3 +607,14 @@ body:has(#luke-fig:hover) #luke-icons {
 .digcreative-left-button:hover {
     background-color: #276da5;   
 }
+
+/* Pricing */
+
+.pricing-part {
+    height: 100vh;
+    background-color: #edebe6;
+}
+
+.pricing-texts {
+    
+}
