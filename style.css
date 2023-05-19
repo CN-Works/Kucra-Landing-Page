@@ -772,3 +772,20 @@ body:has(#luke-fig:hover) #luke-icons {
     background-color: #3993DD;
     color: #ffffff;
 }
+
+.spec-part {
+    width: 80%;
+    height: 50%;
+}
+
+.spec-line {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.spec-left {
+    display: flex;
+}
