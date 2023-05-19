@@ -784,8 +784,15 @@ body:has(#luke-fig:hover) #luke-icons {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .spec-left {
     display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.spec-icon {
+    height: 25px;
 }
