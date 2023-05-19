@@ -529,6 +529,21 @@ body:has(#luke-fig:hover) #luke-icons {
     -ms-user-select: none;      /* IE 10+ */
 }
 
+#society-1 {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    transition: all 0.5s;
+}
+
+#society-1:hover {
+    opacity: 100%;
+}
+
 /* Digital Creativity */
 
 .digcreative {
