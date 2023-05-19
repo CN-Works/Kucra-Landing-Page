@@ -532,6 +532,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #society-1:hover {
     opacity: 100%;
+    scale: 1.01;
 }
 
 #society-2 {
@@ -547,6 +548,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #society-2:hover {
     opacity: 100%;
+    scale: 1.01;
 }
 
 #society-3 {
@@ -562,6 +564,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #society-3:hover {
     opacity: 100%;
+    scale: 1.01;
 }
 
 #society-4 {
@@ -577,6 +580,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #society-4:hover {
     opacity: 100%;
+    scale: 1.01;
 }
 
 #society-5 {
@@ -592,6 +596,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #society-5:hover {
     opacity: 100%;
+    scale: 1.01;
 }
 
 /* Digital Creativity */
