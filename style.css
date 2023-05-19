@@ -712,8 +712,21 @@ body:has(#luke-fig:hover) #luke-icons {
     padding: 0 15%;
 }
 
-.price-cards {
-    width: 90%;
+/* Offer cards part */
+
+.pricing-cards {
+    width: 80%;
     height: 60%;
-    background-color: #0e708b;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.offer-card {
+    width: 30%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 15px;
 }
