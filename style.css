@@ -690,11 +690,30 @@ body:has(#luke-fig:hover) #luke-icons {
     justify-content: space-evenly;
 }
 
-.pricing-texts {   
+.pricing-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    height: 20%;
+}
+
+.pricing-title {
+    color:  #303030;
+    font-size: 2.2rem;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    color:  #5d5d5d;
+    font-size: 1.6rem;
+    padding: 0 15%;
 }
 
 .price-cards {
-    width: 80%;
+    width: 90%;
     height: 60%;
     background-color: #0e708b;
 }
