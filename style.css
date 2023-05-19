@@ -753,3 +753,8 @@ body:has(#luke-fig:hover) #luke-icons {
     border-radius: 5px;
     transition: all 0.5s;
 }
+
+.offer-card-button:hover {
+    background-color: #3993DD;
+    color: #ffffff;
+}
