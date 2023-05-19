@@ -683,8 +683,18 @@ body:has(#luke-fig:hover) #luke-icons {
 .pricing-part {
     height: 100vh;
     background-color: #edebe6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.pricing-texts {
-    
+.pricing-texts {   
+}
+
+.price-cards {
+    width: 80%;
+    height: 60%;
+    background-color: #0e708b;
 }
