@@ -519,16 +519,6 @@ body:has(#luke-fig:hover) #luke-icons {
     width: 175px;
 }
 
-.society-logo {
-    height: 100%;
-    width: 100%;
-    opacity: 30%;
-    /* unselectable */
-    -webkit-user-select: none;  /* Chrome all / Safari all */
-    -moz-user-select: none;     /* Firefox all */
-    -ms-user-select: none;      /* IE 10+ */
-}
-
 #society-1 {
     height: 100%;
     width: 100%;
@@ -541,6 +531,66 @@ body:has(#luke-fig:hover) #luke-icons {
 }
 
 #society-1:hover {
+    opacity: 100%;
+}
+
+#society-2 {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    transition: all 0.5s;
+}
+
+#society-2:hover {
+    opacity: 100%;
+}
+
+#society-3 {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    transition: all 0.5s;
+}
+
+#society-3:hover {
+    opacity: 100%;
+}
+
+#society-4 {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    transition: all 0.5s;
+}
+
+#society-4:hover {
+    opacity: 100%;
+}
+
+#society-5 {
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    transition: all 0.5s;
+}
+
+#society-5:hover {
     opacity: 100%;
 }
 
