@@ -232,7 +232,7 @@ body::-webkit-scrollbar-thumb {
 
 .works-part {
     height: 100vh;
-    background-color: #edebe6;
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -682,7 +682,7 @@ body:has(#luke-fig:hover) #luke-icons {
 
 .pricing-part {
     height: 100vh;
-    background-color: #edebe6;
+    background-color: #f1f1f1;
 
     display: flex;
     flex-direction: column;
@@ -729,4 +729,15 @@ body:has(#luke-fig:hover) #luke-icons {
     background-color: rgb(255, 255, 255);
 
     border-radius: 15px;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-price-text {
+    display: flex;
 }
