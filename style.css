@@ -735,11 +735,25 @@ body:has(#luke-fig:hover) #luke-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .offer-price-text {
     display: flex;
+
+    gap: 5px;
+}
+
+.offer-price-currency {
+    color: #3993DD;
+}
+
+.offer-price-value {
+    color: #3993DD;
+}
+
+.offer-price-duration {
+    color:  #5d5d5d;
 }
 
 .offer-card-button {
