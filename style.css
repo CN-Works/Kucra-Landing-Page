@@ -740,16 +740,23 @@ body:has(#luke-fig:hover) #luke-icons {
 
 .offer-price-text {
     display: flex;
+    align-items: center;
 
     gap: 5px;
+
+    height: 7.5%;
 }
 
 .offer-price-currency {
     color: #3993DD;
+    padding-bottom: 20%;
+    font-size: 1.4rem;
 }
 
 .offer-price-value {
     color: #3993DD;
+    font-size: 2.5rem;
+    padding-bottom: 10%;
 }
 
 .offer-price-duration {
@@ -795,4 +802,8 @@ body:has(#luke-fig:hover) #luke-icons {
 
 .spec-icon {
     height: 25px;
+    /* unselectable */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
 }
