@@ -738,6 +738,12 @@ body:has(#luke-fig:hover) #luke-icons {
     justify-content: space-evenly;
 }
 
+.card-promotion-right {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+}
+
 .offer-price-text {
     display: flex;
     align-items: center;
