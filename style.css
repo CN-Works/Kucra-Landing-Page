@@ -819,4 +819,5 @@ body:has(#luke-fig:hover) #luke-icons {
 
 #advanced-card-button:hover {
     background-color: #296da4;
+    outline-color: #296da4;
 }
