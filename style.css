@@ -809,5 +809,10 @@ body:has(#luke-fig:hover) #luke-icons {
 }
 
 #advanced-card-price {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+#advanced-card-button {
+    background-color: #3993DD;
+    color:#ffffff;;  
 }
