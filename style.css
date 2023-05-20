@@ -807,3 +807,7 @@ body:has(#luke-fig:hover) #luke-icons {
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
 }
+
+#advanced-card-price {
+    margin-bottom: 50px;
+}
