@@ -851,11 +851,15 @@ body:has(#luke-fig:hover) #luke-icons {
 .blog-head-title {
     color:  #303030;
     text-align: center;
+    font-size: 2.1rem;
+    font-weight: 700;
 }
 
 .blog-head-subtitle {
+    padding: 0 15%;
     color:  #5d5d5d;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .blog-content-cards {
