@@ -915,3 +915,8 @@ body:has(#luke-fig:hover) #luke-icons {
     text-align: left;
     font-size: 1.1rem;
 }
+
+/* Footer */
+footer {
+    height: 30vh;
+}
