@@ -881,11 +881,14 @@ body:has(#luke-fig:hover) #luke-icons {
 .blog-card-title {
     color:  #303030;
     text-align: justify;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .blog-card-subtitle {
     color:  #5d5d5d;
     text-align: justify;
+    font-size: 1.1rem;
 }
 
 .blog-card-imagefig {
