@@ -834,10 +834,48 @@ body:has(#luke-fig:hover) #luke-icons {
     height: 100vh;
 }
 
+.blog-head-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+}
+
 .blog-head-title {
     color:  #303030;
+    text-align: center;
 }
 
 .blog-head-subtitle {
     color:  #5d5d5d;
+    text-align: center;
+}
+
+.blog-content-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50%;
+
+    gap: 30px;
+}
+
+.blog-contentcard {
+    width: 25%;
+}
+
+.blog-card-imagefig {
+    width: 100%;
+}
+
+.blog-card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.blog-card-button {
+
 }
