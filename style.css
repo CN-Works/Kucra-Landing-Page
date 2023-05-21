@@ -832,6 +832,11 @@ body:has(#luke-fig:hover) #luke-icons {
 
 .blog-part {
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .blog-head-texts {
@@ -864,7 +869,23 @@ body:has(#luke-fig:hover) #luke-icons {
 }
 
 .blog-contentcard {
-    width: 25%;
+    width: 22.5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 15px;
+}
+
+.blog-card-title {
+    color:  #303030;
+    text-align: justify;
+}
+
+.blog-card-subtitle {
+    color:  #5d5d5d;
+    text-align: justify;
 }
 
 .blog-card-imagefig {
