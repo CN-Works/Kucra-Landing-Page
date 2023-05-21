@@ -895,8 +895,15 @@ body:has(#luke-fig:hover) #luke-icons {
 .blog-card-image {
     height: 100%;
     width: 100%;
+
+    border-radius: 7px;
 }
 
 .blog-card-button {
-
+    width: 25%;
+    height: 30px;
+    border: none;
+    background-color: #ffffff;
+    color: #3993DD;
+    text-align: left;
 }
