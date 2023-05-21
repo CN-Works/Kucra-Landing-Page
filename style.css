@@ -79,6 +79,15 @@ body::-webkit-scrollbar-thumb {
 
 .nav-networks-logo {
     margin: 0 5px;
+    border-radius: 50%;
+    padding: 5px;
+
+    transition: all, 0.25s;
+}
+
+.nav-networks-logo:hover {
+    background-color: #000000;
+    filter: invert();
 }
 
 /* Home illustration part */
