@@ -827,3 +827,17 @@ body:has(#luke-fig:hover) #luke-icons {
     background-color: #296da4;
     outline-color: #296da4;
 }
+
+/* "Our blog" */
+
+.blog-part {
+    height: 100vh;
+}
+
+.blog-head-title {
+    color:  #303030;
+}
+
+.blog-head-subtitle {
+    color:  #5d5d5d;
+}
