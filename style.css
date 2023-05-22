@@ -1152,4 +1152,16 @@ footer {
         margin: 0;
         font-size: 1rem;
     }
+
+    /* how it works */
+
+    .works-part {
+        justify-content: center;
+
+        gap: 30px;
+    }
+
+    .works-description {
+        width: 90%;
+    }
 }
