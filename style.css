@@ -1040,6 +1040,11 @@ footer {
 /* Phone responsive */
 
 @media only screen and (max-width: 450px) {
+
+    .controls {
+        display: none;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
