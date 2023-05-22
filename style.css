@@ -1202,4 +1202,18 @@ footer {
         width: 50%;
         margin: 0;
     }
+
+    /* Parallax part */
+
+    .kukra-starting-parallax {
+        height: 75vh;
+    }
+
+    .parallax-title {
+        text-align: center;
+    }
+
+    .parallax-subtext {
+        padding: 0 5px;
+    }
 }
