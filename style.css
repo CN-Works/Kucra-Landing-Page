@@ -1309,4 +1309,28 @@ footer {
     .pricing-subtitle {
         padding: 0 5%;
     }
+
+    /* Blog part */
+
+    .blog-part {
+        height: 200vh;
+    }
+
+    .blog-head-subtitle {
+        padding: 0 5%;
+    }
+
+    .blog-content-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 150vh;
+        gap: 30px;
+    }
+
+    .blog-contentcard {
+        width: 90%;
+    }
 }
