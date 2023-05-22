@@ -1267,4 +1267,46 @@ footer {
         margin: 0;
         width: 80%;
     }
+
+    /* Pricing part */
+
+    .pricing-part {
+        height: 200vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing-cards {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        gap: 40px;
+    }
+
+    .offer-card {
+        width: 90%;
+    }
+
+    #advanced-card-price {
+        margin: 0;
+    }
+
+    .offer-card-button {
+        height: 10%;
+    }
+
+    .pricing-title {
+        font-size: 2.5rem;
+    }
+
+    .pricing-subtitle {
+        padding: 0 5%;
+    }
 }
