@@ -966,6 +966,13 @@ body:has(#luke-fig:hover) #luke-icons {
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
+
+    transition: all, 0.5s;
+}
+
+.blog-card-image:hover {
+    box-shadow:  6px 6px 12px #bebebe,
+             -6px -6px 12px #ffffff;
 }
 
 .blog-card-button {
