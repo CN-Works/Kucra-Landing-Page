@@ -1333,4 +1333,19 @@ footer {
     .blog-contentcard {
         width: 90%;
     }
+
+    /* Footer */
+
+    .footer-icontab {
+        width: 90%;
+    }
+
+    .footer-terms {
+        gap: 10px;
+    }
+
+    .footer-notes {
+        width: 90%;
+        text-align: center;
+    }
 }
