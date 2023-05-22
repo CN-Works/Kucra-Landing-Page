@@ -93,7 +93,12 @@ body::-webkit-scrollbar-thumb {
     transition: all, 0.5s;
 }
 
-.nav-item:hover {
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
     color: #d3d3d3;
 }
 
