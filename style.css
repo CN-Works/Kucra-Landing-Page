@@ -1103,4 +1103,10 @@ footer {
     .home-right-illustration {
         width: 90%;
     }
+
+    /* Features */
+
+    .features-texts {
+        width: 100%;
+    }
 }
