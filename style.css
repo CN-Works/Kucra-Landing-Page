@@ -1242,4 +1242,29 @@ footer {
     .societies {
         width: 50%;
     }
+
+    /* Digital creativity */
+
+    .digcreative {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 20px 0;
+    }
+
+    .digcreative-left {
+        align-items: center;
+        justify-content: center;
+
+        max-width: 90%;
+        width: 90%;
+        margin: 0;
+    }
+
+    .digcreative-right-image {
+        margin: 0;
+        width: 80%;
+    }
 }
