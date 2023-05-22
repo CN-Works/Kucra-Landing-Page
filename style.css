@@ -1193,4 +1193,13 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
+    .team-card {
+        width: 90%;
+    }
+
+    .team-card-stats {
+        width: 50%;
+        margin: 0;
+    }
 }
