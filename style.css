@@ -1216,4 +1216,30 @@ footer {
     .parallax-subtext {
         padding: 0 5px;
     }
+
+    /* Client part */
+
+    .client-says {
+        height: 175vh;
+        width: 100%;
+    }
+
+    .client-says-title {
+        font-size: 2.2rem;
+    }
+
+    .client-says-subtitle {
+        padding: 0 15px;
+    }
+
+    .client-says-societies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .societies {
+        width: 50%;
+    }
 }
