@@ -331,15 +331,15 @@ a:hover {
 .team-title {
     margin: 15px 0;
     color:  #303030;
-    padding: 0 35%;
-    font-size: 2.4rem;
+    padding: 0 15%;
+    font-size: 2.2rem;
 }
 
 .team-subtitle {
     margin: 15px 0;
-    padding: 0 32%;
+    padding: 0 15%;
     color:  #5d5d5d;
-    font-size: 1.4rem;  
+    font-size: 1.2rem;  
 }
 
 /* Cards division */
@@ -347,11 +347,12 @@ a:hover {
 .team-cards-part {
     display: flex;
     justify-content: center;
+    height: 60%;
 }
 
 .team-card {
-    height: 60vh;
-    width: 17.5%;
+    height: 800%;
+    width: 20%;
     margin: 5px;
     /* outline: 2px solid #da1c1c; */
     display: flex;
@@ -364,7 +365,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 0;
+    margin: 15px 0;
 }
 
 .team-card-number {
@@ -381,7 +382,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .card-icons {
@@ -407,8 +408,8 @@ a:hover {
 }
 
 .team-card-picture {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
