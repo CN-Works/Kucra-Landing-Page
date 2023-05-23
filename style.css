@@ -674,7 +674,7 @@ body:has(#luke-fig:hover) #luke-icons {
     flex-direction: column;
     max-height: 50%;
     gap: 50px;
-    max-width: 40%;
+    max-width: 45%;
     margin-top: 200px;
 }
 
@@ -722,7 +722,7 @@ body:has(#luke-fig:hover) #luke-icons {
 }
 
 .digcreative-left-button {
-    height: 50px;
+    height: 100px;
     width: 200px;
     color: #ffffff;
     background-color: #3993DD;
