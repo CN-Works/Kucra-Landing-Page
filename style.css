@@ -977,7 +977,7 @@ body:has(#luke-fig:hover) #luke-icons {
 }
 
 .blog-card-button {
-    width: 25%;
+    width: 100px;
     height: 30px;
     border: none;
     background-color: #ffffff;
