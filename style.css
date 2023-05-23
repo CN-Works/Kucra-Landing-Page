@@ -1113,6 +1113,10 @@ footer {
 
     /* Features */
 
+    .features-part {
+        height: max-content;
+    }
+
     .features-texts {
         width: 100%;
     }
