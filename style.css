@@ -1240,6 +1240,7 @@ footer {
     .client-says {
         height: 175vh;
         width: 100%;
+        height: max-content; 
     }
 
     .client-says-title {
@@ -1270,6 +1271,8 @@ footer {
         justify-content: center;
 
         padding: 20px 0;
+
+        height: max-content; 
     }
 
     .digcreative-left {
@@ -1289,7 +1292,7 @@ footer {
     /* Pricing part */
 
     .pricing-part {
-        height: 200vh;
+        height: max-content; 
 
         display: flex;
         flex-direction: column;
@@ -1331,7 +1334,7 @@ footer {
     /* Blog part */
 
     .blog-part {
-        height: 200vh;
+        height: max-content;
     }
 
     .blog-head-subtitle {
@@ -1353,6 +1356,10 @@ footer {
     }
 
     /* Footer */
+
+    .footer-icontab {
+        height: max-content;
+    }
 
     .footer-icontab {
         width: 90%;
