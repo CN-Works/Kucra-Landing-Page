@@ -13,3 +13,5 @@
 <div align='left'><h1>Preview</h1>
 </div>
 ![image](https://github.com/CN-Works/Kucra-Landing-Page/assets/92865037/6cbbb0c1-c924-43eb-ae3b-88abaca22666)
+
+<img src="https://github.com/CN-Works/Kucra-Landing-Page/assets/92865037/6cbbb0c1-c924-43eb-ae3b-88abaca22666"/>
