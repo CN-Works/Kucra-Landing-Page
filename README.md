@@ -12,4 +12,4 @@
 
 <div align='left'><h1>Preview</h1>
 </div>
-![screencapture-cn-works-github-io-Kucra-Landing-Page-2023-11-03-00_35_52](https://github.com/CN-Works/Kucra-Landing-Page/assets/92865037/6cbbb0c1-c924-43eb-ae3b-88abaca22666)
+![image](https://github.com/CN-Works/Kucra-Landing-Page/assets/92865037/6cbbb0c1-c924-43eb-ae3b-88abaca22666)
