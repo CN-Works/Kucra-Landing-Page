@@ -4,9 +4,6 @@
 
 **Landing page made with illustrations and parallax. (unfinished)**
 
-<div align='left'><a href="https://cn-works.github.io/Kucra-Landing-Page/">Live Preview</a>
-</div>
-
 # Todo
 - Responsive for small devices
 
